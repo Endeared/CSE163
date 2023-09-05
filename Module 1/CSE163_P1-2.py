@@ -1,5 +1,5 @@
 # Ross Hamey
-# CSE163 - P1.6
+# CSE163 - P1.2
 # 9/5/2023
 # https://github.com/Endeared
 
