@@ -1,0 +1,4 @@
+22476,John Roberts,734.25
+24987,Mary Johnson,755.25
+48283,Alice Martin,887.5
+85437,Aaron James,161.5
