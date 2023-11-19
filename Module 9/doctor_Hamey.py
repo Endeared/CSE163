@@ -70,7 +70,6 @@ def main():
         if sentence.upper() == "QUIT":
             print("Have a nice day!")
             break
-        print(sentence)
         print(doctor.reply(sentence))
 
 # The entry point for program execution

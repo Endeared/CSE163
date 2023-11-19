@@ -1,8 +1,10 @@
 # Ross Hamey
-# CSE163 - Mini Project 3
-# 11/5/2023
+# CSE163 - Mini Project 3, Updated
+# 11/19/2023
 # https://github.com/Endeared
 # no recording for this assignment (out of town)
+
+# updated based on feedback from Michael Connaughton (see line 123 & comments)
 
 # random import
 import random as rand
@@ -115,7 +117,10 @@ def main():
     # once the user has entered 'n', we format our total to two decimal places as
     # a separate var, then check which condition our total satisfies and print
     # accordingly
-    total_str = "{:.2f}".format(total)
+    # extra point / revised change - added a abs() call and supplied my total to
+    # ensure that the display is not improper (i.e now if you lost money it will
+    # display that you "lost a total of $x.xx" instead of "los a total of $-x.xx")
+    total_str = "{:.2f}".format(abs(total))
     if total > 0:
         print(f'You played {count} games and won a total of ${total_str}.')
     elif total < 0:
